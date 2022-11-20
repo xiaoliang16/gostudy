@@ -9,7 +9,7 @@ import (
 func main() {
 	var name = flag.String("name", "liang1", "usage")
 	var name2 string
-	flag.StringVar(&name2, "name2", "yaoming", "usage of name")
+	flag.StringVar(&name2, "name2", "yaoming22", "usage of name")
 	flag.Parse()
 	fmt.Println("name: ", *name)
 	fmt.Println("name2: ", name2)
